@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\admin\desktop\xboxcontroller\xboxcontroller\main.cpp(5): warning C4005: 'XINPUT_GAMEPAD_LEFT_THUMB_DEADZONE': macro redefinition
+  d:\program files (x86)\windows kits\10\include\10.0.16299.0\um\xinput.h(100): note: see previous definition of 'XINPUT_GAMEPAD_LEFT_THUMB_DEADZONE'
+c:\users\admin\desktop\xboxcontroller\xboxcontroller\main.cpp(6): warning C4005: 'XINPUT_GAMEPAD_RIGHT_THUMB_DEADZONE': macro redefinition
+  d:\program files (x86)\windows kits\10\include\10.0.16299.0\um\xinput.h(101): note: see previous definition of 'XINPUT_GAMEPAD_RIGHT_THUMB_DEADZONE'
+c:\users\admin\desktop\xboxcontroller\xboxcontroller\main.cpp(106): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\admin\desktop\xboxcontroller\xboxcontroller\main.cpp(107): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  XBOXController.vcxproj -> C:\Users\Admin\Desktop\XBOXController\Debug\XBOXController.exe

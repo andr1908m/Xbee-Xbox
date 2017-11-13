@@ -1,0 +1,21 @@
+The data for the buttons is a word, where the high byte has A,B,X,Y,LB,RB
+				    and the low byte has the DPAD, Back, Start, LeftStick and RightStick
+LB = 1
+RB = 2
+A = 16
+B = 32
+X = 64
+Y = 128
+
+DpadUp = 1
+DpadDown = 2
+DpadLeft = 4
+DpadRight = 8
+
+Start = 16
+Back = 32
+
+So when you make arduino code for this, grab this list and have if statements for when you receive Xbee/Serial information
+
+//if (Serial.read() == 16)
+// grab or something lol
